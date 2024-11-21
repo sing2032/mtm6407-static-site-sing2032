@@ -4,23 +4,29 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Portfolio",
   description: "My Portfolio",
-  base: "/mtm6407-static-site-sing2032/", // base path for GitHub Pages
+  base: "/mtm6407-static-site-sing2032/", 
   build: {
-    outDir: '../../dist' // Ensures build files are placed in the root dist folder
+    outDir: '../../dist' 
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'About', link: '/about' },
+      { text: 'Projects', link: '/projects' },
+      { text: 'Blog', link: '/blog' },
+      { text: 'Contact', link: '/contact' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Main Sections',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Home', link: '/' },
+          { text: 'Projects', link: '/projects' },
+          { text: 'Blog', link: '/blog' },
+          { text: 'About', link: '/about' },
+          { text: 'Contact', link: '/contact' }
         ]
       }
     ],
