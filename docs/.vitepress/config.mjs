@@ -4,6 +4,10 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My Portfolio",
   description: "My Portfolio",
+  base: "/mtm6407-static-site-sing2032/", // base path for GitHub Pages
+  build: {
+    outDir: '../../dist' // Ensures build files are placed in the root dist folder
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
