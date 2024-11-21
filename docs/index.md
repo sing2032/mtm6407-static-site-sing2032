@@ -1,25 +1,18 @@
+# Welcome to My Portfolio
+
+Hi, I’m Jasleen, a passionate web and graphic designer dedicated to crafting creative and functional digital experiences.
+
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
 
-hero:
-  name: "My Portfolio"
-  text: "My Portfolio"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+## About This Site
+Explore my portfolio to see the projects I’ve worked on, learn more about my background, and get in touch if you’d like to collaborate!
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+---
+
+### Highlights:
+- **Projects:** A showcase of my recent work.
+- **Blog:** Insights and thoughts on design and development.
+- **Contact:** Let’s connect and build something amazing together.
+
 ---
 
